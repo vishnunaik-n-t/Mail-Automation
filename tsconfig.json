@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "outDir": "./dist", // This ensures compiled files go to the dist folder
+    "rootDir": "./src"   // This ensures source files are taken from the src folder
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"]
+}
